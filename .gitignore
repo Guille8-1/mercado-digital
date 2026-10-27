@@ -1,0 +1,31 @@
+## Core .NET Build Artifacts
+[Bb]in/
+[Oo]bj/
+
+## IDE and Editor Files
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+!.vscode/extensions.json
+*.code-workspace
+
+# Rider / JetBrains
+.idea/
+*.sln.DotSettings.user
+
+## User-specific and Local Configuration
+*.user
+*.userprefs
+appsettings.Development.json
+appsettings.local.json
+
+## Test and Coverage Results
+TestResults/
+*.clog
+*.cobertura.xml
