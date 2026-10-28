@@ -9,7 +9,7 @@ public class Inventario
 {
     private static readonly string[] Categorias =
     {
-        "Panes", "Verduras", "Embutidos", "Abarrotes", "Frutas"
+        "Panes", "Verduras", "Embutidos", "Abarrotes", "Frutas", "Carnes"
     };
 
     private static readonly int[] umbralesStock = { 10,8,5,12,15,6 };
@@ -70,7 +70,7 @@ public class Inventario
         {
             if (RequiereAlerta(p))
             {
-                Console.WriteLine($"    ⚠ {p.Codigo} | {p.Nombre} | Stock: {p.Stock} (minimo: {ObtenerUmbral(p.Categoria)})");
+                Console.WriteLine($"    ⚠ {p.Codigo} | {p.Nombre} | {p.Stock} (minimo: {ObtenerUmbral(p.Categoria)})");
                 alertas++;
             }
         }, catalogo.Raiz);
@@ -81,7 +81,7 @@ public class Inventario
     public void DescontarStock(string codigo, int cantidad = 1)
     {
         Producto? prod = BuscarPorCodigo(codigo);
-        if (prod != null) prod.Stock += cantidad;
+        if (prod != null) prod.Stock -= cantidad;
     }
 
     public void RestaurarStock(string codigo, int cantidad = 1)

@@ -27,7 +27,7 @@ public class ListaSimple<T>
 
     public void AgregarAlFinal(T dato)
     {
-        NodoSimple<T> nuevo = new NodoSimple<T>(dato);
+        NodoSimple<T> nuevo = new (dato);
         if (cabeza == null)
         {
             cabeza = nuevo;

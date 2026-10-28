@@ -106,7 +106,7 @@ switch (option)
         Console.WriteLine("Profavor ingrese su nombre para el testing");
         break;
     case 7:
-        if(clienteActual == null) { Console.WriteLine("     ⚠️ Debe atender primero a un cliente"); };
+        if(clienteActual == null) { Console.WriteLine("     ⚠️ Debe atender primero a un cliente"); break;};
         Console.Write("     Codigo del producto:"); string pc = Console.ReadLine() ?? "";
         if(caja.AgregarAlCarrito(carrito, pc))
             Console.WriteLine("     🛒 producto agregado al carrito");
@@ -136,9 +136,10 @@ switch (option)
         }
         Console.WriteLine("     Porcentaje de Descuento (ej. 10%) ");
         double pct = double.Parse(Console.ReadLine() ?? "0");
-
         Venta venta = caja.CerrarVenta(clienteActual, carrito, pct);
         Console.WriteLine($"\n ✅ Venta Cerrada {venta}");
+        Console.WriteLine("Detalle: ");
+        carrito.Mostrar(p => Console.WriteLine($"{p.Nombre} - Bs {p.Precio}"));
         Console.WriteLine($"    Ventas Registradas en la pila: {caja.VentasRegistradas()}");
         clienteActual = null;
         break;

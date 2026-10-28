@@ -29,7 +29,7 @@ public class Caja
 
     //carro de compras
 
-    public ListaSimple<Producto> CrearCarrito() => new ListaSimple<Producto>();
+    public ListaSimple<Producto> CrearCarrito() => new ();
 
     public bool AgregarAlCarrito(ListaSimple<Producto> carrito, string codigo)
     {
