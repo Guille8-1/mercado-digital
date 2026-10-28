@@ -52,7 +52,7 @@ do
     Console.Write("");
     Console.ResetColor();
 
-    inventario.CargarPromocionesIniciales();
+    //inventario.CargarPromocionesIniciales();
 
     Console.ForegroundColor = ConsoleColor.White;
     Console.WriteLine(" ► Seleccione opcion: ");
@@ -155,7 +155,7 @@ switch (option)
         Console.Write("\n   Avanzar al siguiente turno del carrusel? (s/n)");
         if((Console.ReadLine() ?? "n").Trim().ToLower() == "s")
         {
-            Console.WriteLine($"     ➡️ Promo Actual: {inventario.SiguientePromo()}");
+            Console.WriteLine($"     🌟 Promo Actual: {inventario.SiguientePromo()}");
         }
         break;
     case 13:

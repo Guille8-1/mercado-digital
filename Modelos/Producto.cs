@@ -14,5 +14,5 @@ public class Producto(string codigo, string nombre, string categoria, double pre
     }
 
     public override string ToString()
-        => $"{Codigo} | {Nombre,-20} | {Categoria,-12} | {Precio,7:F2} | Stock: {Stock}";
+        => $"{Codigo} | {Nombre,-20} | {Categoria,-12} |   {Precio,7:F2} |    {Stock}";
 }

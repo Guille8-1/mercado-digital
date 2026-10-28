@@ -13,7 +13,7 @@ public class Inventario
     };
 
     private static readonly int[] umbralesStock = { 10,8,5,12,15,6 };
-    private BST<Producto> catalogo = new BST<Producto>();
+    private BST<Producto> catalogo = new ();
     private ListaCircular<string> promociones = new();
 
     public void RegistrarProducto(string codigo, string nombre, string categoria, double precio, int stock)
@@ -95,7 +95,7 @@ public class Inventario
     public void AgregarPromocion(string promocion) => promociones.Agregar(promocion);
     public string? PromoActual() => promociones.Actual();
     public string? SiguientePromo() => promociones.Siguiente();
-    public void MostrarPromociones() => promociones.RecorrerUnaVuelta(pr => Console.WriteLine($"    � {pr}"));
+    public void MostrarPromociones() => promociones.RecorrerUnaVuelta(pr => Console.WriteLine($"    🌟 {pr}"));
 
     public void CargarPromocionesIniciales()
     {
