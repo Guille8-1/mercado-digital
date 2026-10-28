@@ -177,7 +177,7 @@ switch (option)
         Console.WriteLine("Opcion no valida, porfavor vuelva a intentarlo");
         break;
 }
-    if(option != 13)
+    if(option != 14)
     {
         Console.WriteLine();
         Console.ForegroundColor = ConsoleColor.Gray;
@@ -185,7 +185,7 @@ switch (option)
         Console.ResetColor();
         Console.ReadKey();
     }
-}while(option != 13);
+}while(option != 14);
 
 //SaveData()
 //ShowGoodBye();

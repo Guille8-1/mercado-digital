@@ -146,3 +146,48 @@ El desarrollo de Mercado Digital demuestra la necesidad de los comerciantes de u
 
 ##  6.2 Recomendaciones
 Se recomienda desarrollar una interfaz gráfica de usuario (GUI) o web que facilite la visualización de los productos y el control de los productos por el usuario. Tambien se necesita una persistencia de datos como ser MySQL o PostgreSQL que permita al usuario acceder a reportes y datos estadisticos.
+
+# Capturas de la Aplicacion de Consola
+## Menu Inicio
+![alt text](image.png)
+## Opcion [1]
+### Mostrar Inventario
+![alt text](image-1.png)
+## Opcion [2]
+### Buscar por Codigo
+![alt text](image-2.png)
+## Opcion [3]
+### Registrar Nuevo Producto
+![alt text](image-3.png)
+### Comprobacion
+![alt text](image-5.png)
+## Opcion [4]
+### Registrar Cliente
+![alt text](image-6.png)
+## Opcion [6]
+### Revisar La Cola de Atencion
+![alt text](image-7.png)
+## Opcion [5]
+### Atender Cliente
+![alt text](image-8.png)
+## Opcion [7]
+### Agregar Productos al Carrito
+![alt text](image-9.png)
+## Opcion [8]
+### Retirar Productos Del Carrito
+![alt text](image-10.png)
+## Opcion [9]
+### Mostrar Contenido Del Carrito
+![alt text](image-11.png)
+## Opcion [10]
+### Cerrar Ventas
+![alt text](image-12.png)
+## Opcion [11]
+### Deshacer Venta Resstablecer Stock Qty
+![alt text](image-13.png)
+## Opcion [12]
+### Mostrar Promociones
+![alt text](image-14.png)
+## Opcion [13]
+### Mostrar Alertas de productos en baja Qty
+![alt text](image-15.png)
