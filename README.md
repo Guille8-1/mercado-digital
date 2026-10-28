@@ -120,7 +120,7 @@ Esta aplicacion de consola se desarrolla bajo el lenguaje de programacion C# un 
 
 La logica de negocio consiste en optimizar el control tanto de mercancia como de caja, mostrando detalles de venta y detalles sobre el stock restante despues de una venta y registrando movimientos dentro del historial diario de un almacen o negocio.
 
-## 4.2 Descripcion general del sistema
+## 4.2 Estructura del sistema
 
 El sistema esta organizado medinate clases y estructuras de datos implementadas para el optimo flujo y procesamiento de datos.
   • MENU DE OPCIONES punto de entrada de la aplicacion.
@@ -132,6 +132,11 @@ El sistema esta organizado medinate clases y estructuras de datos implementadas 
 ## 4.3 Manejo de Datos
 
 Para fines demostrativos es necesario cargar datos mediante codigo. La applicacion usa los datos (dummy data) dentro de la duracion de la demostracion, una vez la apliacion haya concluido o el usuario haya cerrado la aplicacion no rentendra estos datos.
+  • Manejo de ciclos condicionales do while, while evaluando booleans.
+  • BST para la busqueda de productos.
+  • Lista simple y circulares para el procesamiento de clientes y productos dentro de un carrito.
+  • Registro De Caja, uso de recursividad para el calculo de sub total y total.
+  • Ciclo de atencion al cliente, menidante servicio implementados haciendo uso de las estructuras de datos mencionadas.
 
 ##  5. Tecnologías Utilizadas
 -	Lenguaje: C# (.NET) 
@@ -149,45 +154,45 @@ Se recomienda desarrollar una interfaz gráfica de usuario (GUI) o web que facil
 
 # Capturas de la Aplicacion de Consola
 ## Menu Inicio
-![alt text](image.png)
+![alt text](/images/image.png)
 ## Opcion [1]
 ### Mostrar Inventario
-![alt text](image-1.png)
+![alt text](/images/image-1.png)
 ## Opcion [2]
 ### Buscar por Codigo
-![alt text](image-2.png)
+![alt text](/images/image-2.png)
 ## Opcion [3]
 ### Registrar Nuevo Producto
-![alt text](image-3.png)
+![alt text](/images/image-3.png)
 ### Comprobacion
-![alt text](image-5.png)
+![alt text](/images/image-5.png)
 ## Opcion [4]
 ### Registrar Cliente
-![alt text](image-6.png)
+![alt text](/images/image-6.png)
 ## Opcion [6]
 ### Revisar La Cola de Atencion
-![alt text](image-7.png)
+![alt text](/images/image-7.png)
 ## Opcion [5]
 ### Atender Cliente
-![alt text](image-8.png)
+![alt text](/images/image-8.png)
 ## Opcion [7]
 ### Agregar Productos al Carrito
-![alt text](image-9.png)
+![alt text](/images/image-9.png)
 ## Opcion [8]
 ### Retirar Productos Del Carrito
-![alt text](image-10.png)
+![alt text](/images/image-10.png)
 ## Opcion [9]
 ### Mostrar Contenido Del Carrito
-![alt text](image-11.png)
+![alt text](/images/image-11.png)
 ## Opcion [10]
 ### Cerrar Ventas
-![alt text](image-12.png)
+![alt text](/images/image-12.png)
 ## Opcion [11]
 ### Deshacer Venta Resstablecer Stock Qty
-![alt text](image-13.png)
+![alt text](/images/image-13.png)
 ## Opcion [12]
 ### Mostrar Promociones
-![alt text](image-14.png)
+![alt text](/images/image-14.png)
 ## Opcion [13]
 ### Mostrar Alertas de productos en baja Qty
-![alt text](image-15.png)
+![alt text](/images/image-15.png)
